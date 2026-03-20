@@ -90,7 +90,7 @@ begin
         generic map (k_DIV => 200000)
         port map (
             i_clk => clk,
-            i_reset => s,
+            i_reset => w_reset_2,
             o_clk => w_clk_1
         );
         
